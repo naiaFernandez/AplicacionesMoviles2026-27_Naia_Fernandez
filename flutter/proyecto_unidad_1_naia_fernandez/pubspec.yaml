@@ -37,6 +37,7 @@ dependencies:
   google_fonts: ^9.0.0
   versatile_gradient_text: ^0.0.4
   bordered_text: ^3.0.2
+  url_launcher: ^6.3.3
 
 dev_dependencies:
   flutter_test:
@@ -78,6 +79,7 @@ flutter:
     - assets/image13.png
     - assets/image14.png
     - assets/image15.png
+    - assets/imagenInstagram.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
