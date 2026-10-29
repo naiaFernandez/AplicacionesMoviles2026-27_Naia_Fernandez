@@ -193,14 +193,10 @@ class Enlace11 extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(
-            height: 130,
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              children: [
-                Padding(
+          
+          SingleChildScrollView(scrollDirection: Axis.horizontal, child: Row(children: [Padding(
                   padding: const EdgeInsets.all(10),
-                  child: Container(
+                  child: Column(children: [Container(
                     width: 90,
                     height: 90,
                     decoration: BoxDecoration(
@@ -209,10 +205,10 @@ class Enlace11 extends StatelessWidget {
                       border: Border.all(color: Colors.pink, width: 5),
                     ),
                     child: CircleAvatar(
-                      backgroundImage: AssetImage("assets/imagenInstagram.png"),
+                      backgroundImage: AssetImage("assets/photoAmigos.jpg"),
                       radius: 0.1,
                     ),
-                  ),
+                  ), Text("Amigos/as")])
                 ),
                 Padding(
                   padding: const EdgeInsets.all(10),
@@ -228,7 +224,7 @@ class Enlace11 extends StatelessWidget {
                         ),
                         child: CircleAvatar(
                           backgroundImage: AssetImage(
-                            "assets/imagenInstagram.png",
+                            "assets/photoFamilia.jpg",
                           ),
                           radius: 0.1,
                         ),
@@ -251,7 +247,7 @@ class Enlace11 extends StatelessWidget {
                         ),
                         child: CircleAvatar(
                           backgroundImage: AssetImage(
-                            "assets/imagenInstagram.png",
+                            "assets/photoVacaciones.jpg",
                           ),
                           radius: 0.1,
                         ),
@@ -262,7 +258,7 @@ class Enlace11 extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.all(10),
-                  child: Container(
+                  child: Column( children: [Container(
                     width: 90,
                     height: 90,
                     decoration: BoxDecoration(
@@ -274,8 +270,8 @@ class Enlace11 extends StatelessWidget {
                       backgroundImage: AssetImage("assets/imagenInstagram.png"),
                       radius: 0.1,
                     ),
-                  ),
-                ),
+                  ),Text("")
+          ]),),
                 Padding(
                   padding: const EdgeInsets.all(10),
                   child: Container(
@@ -322,20 +318,15 @@ class Enlace11 extends StatelessWidget {
                         ),
                         child: CircleAvatar(
                           backgroundImage: AssetImage(
-                            "assets/imagenInstagram.png",
+                            "assets/photoGatos.png",
                           ),
                           radius: 0.1,
                         ),
                       ),
                       Text("Gatos"),
                     ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
+                  ),)],)),
+                  Expanded(child: Padding(padding: const EdgeInsets.all(30), child: Row(children: [Icon(Icons.grid_on_sharp, size: 30,)],),))])
+         );
   }
 }
