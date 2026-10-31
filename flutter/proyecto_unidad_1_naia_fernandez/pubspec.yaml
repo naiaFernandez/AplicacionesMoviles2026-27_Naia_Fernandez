@@ -38,6 +38,7 @@ dependencies:
   versatile_gradient_text: ^0.0.4
   bordered_text: ^3.0.2
   url_launcher: ^6.3.3
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -84,6 +85,15 @@ flutter:
     - assets/photoFamilia.jpg
     - assets/photoGatos.png
     - assets/photoVacaciones.jpg
+    - assets/photoInsta1.png
+    - assets/photoInsta2.jpg
+    - assets/photoInsta3.jpg
+    - assets/photoInsta4.jpg
+    - assets/photoInsta5.jpg
+    - assets/photoInsta6.png
+    - assets/photoHistoryRel.png
+    - assets/photoIsaac.png
+    - assets/verificado.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
