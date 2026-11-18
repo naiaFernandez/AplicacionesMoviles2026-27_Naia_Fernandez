@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context) => const MyApp(),
         '/ejercicio1': (context) => const Enlace1(),
         '/ejercicio2': (context) => const Enlace2(),
         '/ejercicio3': (context) => const Enlace3(),
@@ -26,6 +26,8 @@ class MyApp extends StatelessWidget {
         '/ejercicio9': (context) => const Enlace9(),
         '/ejercicio10': (context) => const Enlace10(),
         '/ejercicio11': (context) => const Enlace11(),
+        '/ejercicio12': (context) => const Enlace12(),
+        '/ejercicio13': (context) => const Enlace13(),
       },
       title: 'Pagina principal',
       home: Scaffold(

@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_unidad_1_naia_fernandez/screens/ejercicio11.dart';
-
-import 'screens.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -93,6 +90,18 @@ class MenuLateral extends StatelessWidget {
             title: const Text("Ejercicio 11"),
             onTap: () {
               Navigator.pushNamed(context, '/ejercicio11');
+            },
+          ),
+          ListTile(
+            title: const Text("Ejercicio 12"),
+            onTap: () {
+              Navigator.pushNamed(context, '/ejercicio12');
+            },
+          ),
+          ListTile(
+            title: const Text("Ejercicio 13"),
+            onTap: () {
+              Navigator.pushNamed(context, '/ejercicio13');
             },
           ),
         ],

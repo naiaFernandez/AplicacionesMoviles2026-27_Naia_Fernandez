@@ -9,7 +9,6 @@ class Enlace8 extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     final width = size.width;
-    final height = size.height;
 
     bool isMobile = width < 600;
 

@@ -9,3 +9,5 @@ export 'ejercicio8.dart';
 export 'ejercicio9.dart';
 export 'ejercicio10.dart';
 export 'ejercicio11.dart';
+export 'ejercicio12.dart';
+export 'ejercicio13.dart';
